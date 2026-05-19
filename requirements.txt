@@ -1,0 +1,18 @@
+# Snowflake
+snowflake-connector-python>=3.12.0
+snowflake-sqlalchemy>=1.6.0
+
+# dbt (local validation only — dbt Cloud runs jobs in the cloud)
+dbt-snowflake>=1.9.0
+
+# Anthropic
+anthropic>=0.40.0
+
+# Data
+pandas>=2.2.0
+requests>=2.32.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.9.0
+pyyaml>=6.0.0
